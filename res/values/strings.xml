@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Menu Dan Intent</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="password_">Password :</string>
+    <string name="id_">ID :</string>
+    <string name="reset">Reset</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_using_intent">Selamat Datang</string>
+    <string name="title_activity_jadwal_kuliah">Jadwal Kuliah</string>
+    <string name="title_activity_absen_kuliah">Absen Kuliah</string>
+    <string name="jadwal_kuliah">Jadwal Kuliah</string>
+    <string name="absen_kuliah">Absen Kuliah</string>
+
+</resources>

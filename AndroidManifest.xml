@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aseprojali.menudanintent"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.aseprojali.menudanintent.Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aseprojali.menudanintent.UsingIntent"
+            android:label="@string/title_activity_using_intent" >
+        </activity>
+        <activity
+            android:name="com.aseprojali.menudanintent.JadwalKuliah"
+            android:label="@string/title_activity_jadwal_kuliah" >
+        </activity>
+        <activity
+            android:name="com.aseprojali.menudanintent.AbsenKuliah"
+            android:label="@string/title_activity_absen_kuliah" >
+        </activity>
+    </application>
+
+</manifest>
